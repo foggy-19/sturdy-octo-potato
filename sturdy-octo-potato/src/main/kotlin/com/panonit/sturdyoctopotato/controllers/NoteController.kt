@@ -11,10 +11,6 @@ import kotlin.jvm.optionals.getOrNull
 import kotlin.time.Clock
 import kotlin.time.Instant
 
-// POST http://localhost:8081/notes
-// GET http://localhost:8081/notes?ownerId=123
-// DELETE http://localhost:8081/notes/123
-
 @RestController
 @RequestMapping(value = ["/notes"])
 class NoteController(
